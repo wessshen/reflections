@@ -1,3 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 You create an empty repository with no files tracked, but tracking files is needed to create commits.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area works as a place where you can keep track of files that will be tracked in the next commit, while working directory is simply a place that contains all the files that can possibly be tracked and the repository is the space where all the commits made are stored.
+
