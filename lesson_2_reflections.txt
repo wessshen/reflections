@@ -4,3 +4,6 @@ You create an empty repository with no files tracked, but tracking files is need
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area works as a place where you can keep track of files that will be tracked in the next commit, while working directory is simply a place that contains all the files that can possibly be tracked and the repository is the space where all the commits made are stored.
 
+How can you use the staging area to make sure you have one commit per logical change?
+You can compare the changes made between the working directory and the staging area, which by default is the most recent commit made, with the command git diff, and you can also make sure by running the command git diff --staged to compare the staging area with the most recent commit made if any changes were made after it.
+
