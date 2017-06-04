@@ -7,3 +7,9 @@ The staging area works as a place where you can keep track of files that will be
 How can you use the staging area to make sure you have one commit per logical change?
 You can compare the changes made between the working directory and the staging area, which by default is the most recent commit made, with the command git diff, and you can also make sure by running the command git diff --staged to compare the staging area with the most recent commit made if any changes were made after it.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+It allows the user to add labels to a group of commits and/or work on many features at the same time.
+
+How do the diagrams help you visualize the branch structure?
+It helped to show which commits are reachable and which are not. Also, it showed how a repository can contain many branches, despite all of the branches is part of the project.
+
