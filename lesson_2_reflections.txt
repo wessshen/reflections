@@ -16,3 +16,6 @@ It helped to show which commits are reachable and which are not. Also, it showed
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The commits from both branches will be merged together, or more specifically, the branch not checked out will be merged to the one currently checkedout. The process is represented through a tree to show which branch label gets updated and possibly the order of the commits.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is much more convenient, but the problem of conflicts can come up frequently, especially if the file consists of a lot of changes throughout. When merges is done manually, conflicts can be easily avoided since files can be compared before commits are made or branches are merged.
+
