@@ -13,3 +13,6 @@ It allows the user to add labels to a group of commits and/or work on many featu
 How do the diagrams help you visualize the branch structure?
 It helped to show which commits are reachable and which are not. Also, it showed how a repository can contain many branches, despite all of the branches is part of the project.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The commits from both branches will be merged together, or more specifically, the branch not checked out will be merged to the one currently checkedout. The process is represented through a tree to show which branch label gets updated and possibly the order of the commits.
+
