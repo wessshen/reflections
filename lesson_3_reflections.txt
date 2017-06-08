@@ -7,3 +7,6 @@ If Git just stays up-to-date all the time, conflicts can happen more easily, and
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are copies of repositories that are specifically done on GitHub, while clones are basically forks but somehow involve a local repository. Branches are just a series of commits and not a whole repository. 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can then be able to compare commits offline and merge them.
+
