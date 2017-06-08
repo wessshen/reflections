@@ -10,3 +10,6 @@ Forks are copies of repositories that are specifically done on GitHub, while clo
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can then be able to compare commits offline and merge them.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You can manually share files on platforms such as Google Drive and Dropbox. However, version control would be much harder since versions are created automatically, making the differences between versions insignificant.
+
