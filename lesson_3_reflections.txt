@@ -13,3 +13,6 @@ You can then be able to compare commits offline and merge them.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 You can manually share files on platforms such as Google Drive and Dropbox. However, version control would be much harder since versions are created automatically, making the differences between versions insignificant.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When a change should be reviewed by other collaborators before adding it to the master branch, which could possibly break the master branch if mistakes were introduced in the change. Also, by working on a separate branch, pull requests can be made on GitHub, allowing others to review the change(s) before merging it to the main branch, master branch.
+
